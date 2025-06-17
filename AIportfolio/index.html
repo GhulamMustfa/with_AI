@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Ghulam Mustafa | Data Science Student & Web Developer</title>
+    <meta name="title" content="Ghulam Mustafa | Data Science Student & Web Developer">
+    <meta name="description" content="Data Science student at UAF, passionate about web development and AI. Check out my portfolio of projects and skills.">
+    <meta name="keywords" content="Data Science, Web Development, Python, JavaScript, AI, Portfolio">
+    <meta name="author" content="Ghulam Mustafa">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-domain.com/">
+    <meta property="og:title" content="Ghulam Mustafa | Data Science Student & Web Developer">
+    <meta property="og:description" content="Data Science student at UAF, passionate about web development and AI. Check out my portfolio of projects and skills.">
+    <meta property="og:image" content="https://your-domain.com/profile.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://your-domain.com/">
+    <meta property="twitter:title" content="Ghulam Mustafa | Data Science Student & Web Developer">
+    <meta property="twitter:description" content="Data Science student at UAF, passionate about web development and AI. Check out my portfolio of projects and skills.">
+    <meta property="twitter:image" content="https://your-domain.com/profile.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="profile.jpg" as="image">
+    <link rel="preload" href="logo.png" as="image">
+</head>
+
+<body>
+    <!-- Main Navigation Bar -->
+    <nav class="navbar">
+        <!-- Logo Section -->
+        <div class="logo">
+            <a href="#home" class="smooth-scroll">
+                <img src="logo.png" alt="GM Logo" class="logo-img">
+            </a>
+        </div>
+
+        <!-- Mobile Menu Toggle -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+            <li><a href="#about" class="smooth-scroll">About</a></li>
+            <li><a href="#skills" class="smooth-scroll">Skills</a></li>
+            <li class="dropdown">
+                <a href="#certificates" class="dropdown-trigger">
+                    Certificates
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#web-dev"><i class="fas fa-code"></i> Web Development</a></li>
+                    <li><a href="#data-science"><i class="fas fa-database"></i> Data Science</a></li>
+                    <li><a href="#ai"><i class="fas fa-brain"></i> Artificial Intelligence</a></li>
+                    <li><a href="#others"><i class="fas fa-certificate"></i> Others</a></li>
+                </ul>
+            </li>
+            <li><a href="#projects" class="smooth-scroll">Projects</a></li>
+        </ul>
+
+        <!-- Theme Switcher -->
+        <div class="theme-switch">
+            <input type="checkbox" id="theme-toggle" class="theme-toggle">
+            <label for="theme-toggle" class="theme-label">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+                <span class="theme-ball"></span>
+            </label>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Left Content -->
+        <div class="hero-content">
+            <h1 class="fade-in">Hi, I'm <span class="highlight">Ghulam Mustafa</span></h1>
+            <h2 class="fade-in delay-1">Web Developer & Designer</h2>
+            <p class="fade-in delay-2">Passionate about creating beautiful and functional web experiences. I specialize in modern web development and user interface design.</p>
+            
+            <!-- Social Links -->
+            <div class="social-links fade-in delay-3">
+                <a href="#" class="social-icon" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-icon" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="social-icon" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+
+            <!-- CTA Button -->
+            <a href="#contact" class="cta-button fade-in delay-4">Get in Touch</a>
+        </div>
+
+        <!-- Right Content - Profile Image -->
+        <div class="hero-image fade-in delay-2">
+            <div class="image-container">
+                <img src="profile.jpg" alt="Ghulam Mustafa" class="profile-image">
+                <div class="image-backdrop"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Divider -->
+    <div class="section-divider">
+        <div class="divider-line"></div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am a passionate Data Science student at the University of Agriculture Faisalabad (UAF), currently pursuing my Bachelor's degree. My journey in technology combines academic learning with practical development skills.</p>
+                <p>While I'm still early in my career, I'm actively building my portfolio through personal projects and competitive programming. I've solved 15+ problems on LeetCode, focusing on Data Structures and Algorithms, which helps me develop strong problem-solving skills.</p>
+                <p>I'm particularly interested in web development and AI integration, constantly learning new technologies to enhance my skill set.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>BS</h3>
+                    <p>Data Science</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-code"></i>
+                    <h3>15+</h3>
+                    <p>LeetCode Solved</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>5+</h3>
+                    <p>Projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Divider -->
+    <div class="section-divider">
+        <div class="divider-line"></div>
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-header">
+            <h2>My Skills</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="skills-container">
+            <!-- Web Development -->
+            <div class="skill-category">
+                <h3><i class="fas fa-globe"></i> Web Development</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                        <div class="skill-progress" data-progress="90">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                        <div class="skill-progress" data-progress="85">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                        <div class="skill-progress" data-progress="80">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item more-btn">
+                        <i class="fas fa-plus"></i>
+                        <span>More</span>
+                    </div>
+                </div>
+                <div class="skill-details">
+                    <h4>Additional Skills</h4>
+                    <ul>
+                        <li>Responsive Design</li>
+                        <li>CSS Animations</li>
+                        <li>DOM Manipulation</li>
+                        <li>RESTful APIs</li>
+                        <li>Bootstrap & Tailwind</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Backend Development -->
+            <div class="skill-category">
+                <h3><i class="fas fa-server"></i> Backend Development</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                        <div class="skill-progress" data-progress="85">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-bolt"></i>
+                        <span>FastAPI</span>
+                        <div class="skill-progress" data-progress="80">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <span>MongoDB</span>
+                        <div class="skill-progress" data-progress="75">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item more-btn">
+                        <i class="fas fa-plus"></i>
+                        <span>More</span>
+                    </div>
+                </div>
+                <div class="skill-details">
+                    <h4>Additional Skills</h4>
+                    <ul>
+                        <li>Data Structures</li>
+                        <li>Algorithms</li>
+                        <li>API Development</li>
+                        <li>Database Design</li>
+                        <li>Authentication</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Tools & Others -->
+            <div class="skill-category">
+                <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fas fa-robot"></i>
+                        <span>OpenAI</span>
+                        <div class="skill-progress" data-progress="85">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-figma"></i>
+                        <span>Figma</span>
+                        <div class="skill-progress" data-progress="80">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git</span>
+                        <div class="skill-progress" data-progress="85">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item more-btn">
+                        <i class="fas fa-plus"></i>
+                        <span>More</span>
+                    </div>
+                </div>
+                <div class="skill-details">
+                    <h4>Additional Skills</h4>
+                    <ul>
+                        <li>Version Control</li>
+                        <li>UI/UX Design</li>
+                        <li>Problem Solving</li>
+                        <li>Team Collaboration</li>
+                        <li>Documentation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Divider -->
+    <div class="section-divider">
+        <div class="divider-line"></div>
+    </div>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates-section">
+        <div class="section-header">
+            <h2>My Certifications</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="certificates-grid">
+            <!-- Web Development Certificates -->
+            <div class="certificate-category-card">
+                <i class="fas fa-code certificate-category-icon"></i>
+                <h3>Web Development</h3>
+                <p>Explore my certificates in web development technologies.</p>
+                <a href="#web-dev-certs" class="view-category">View All <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <!-- Data Science Certificates -->
+            <div class="certificate-category-card">
+                <i class="fas fa-database certificate-category-icon"></i>
+                <h3>Data Science</h3>
+                <p>See my certifications in data analysis, machine learning, and more.</p>
+                <a href="#data-science-certs" class="view-category">View All <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <!-- Artificial Intelligence Certificates -->
+            <div class="certificate-category-card">
+                <i class="fas fa-brain certificate-category-icon"></i>
+                <h3>Artificial Intelligence</h3>
+                <p>Discover my AI and deep learning credentials.</p>
+                <a href="#ai-certs" class="view-category">View All <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <!-- Other Certificates -->
+            <div class="certificate-category-card">
+                <i class="fas fa-certificate certificate-category-icon"></i>
+                <h3>Others</h3>
+                <p>Browse additional certifications and specializations.</p>
+                <a href="#other-certs" class="view-category">View All <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section Divider -->
+    <div class="section-divider">
+        <div class="divider-line"></div>
+    </div>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2>My Projects</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="projects-grid">
+            <!-- Example Project Card 1 -->
+            <div class="project-card">
+                <img src="https://via.placeholder.com/400x250?text=Project+1+Image" alt="Project 1" class="project-image">
+                <h3>Project Title One</h3>
+                <p class="project-description">A brief description of Project One, highlighting its key features and technologies used.</p>
+                <div class="project-links">
+                    <a href="#" target="_blank" class="project-link">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    <a href="#" target="_blank" class="project-link">GitHub <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+
+            <!-- Example Project Card 2 -->
+            <div class="project-card">
+                <img src="https://via.placeholder.com/400x250?text=Project+2+Image" alt="Project 2" class="project-image">
+                <h3>Project Title Two</h3>
+                <p class="project-description">A brief description of Project Two, focusing on its unique aspects and impact.</p>
+                <div class="project-links">
+                    <a href="#" target="_blank" class="project-link">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    <a href="#" target="_blank" class="project-link">GitHub <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+
+            <!-- Example Project Card 3 -->
+            <div class="project-card">
+                <img src="https://via.placeholder.com/400x250?text=Project+3+Image" alt="Project 3" class="project-image">
+                <h3>Project Title Three</h3>
+                <p class="project-description">A brief description of Project Three, outlining the challenges faced and solutions implemented.</p>
+                <div class="project-links">
+                    <a href="#" target="_blank" class="project-link">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    <a href="#" target="_blank" class="project-link">GitHub <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+
+            <!-- Add more project cards here as needed -->
+
+            <!-- Coming Soon Project Card -->
+            <div class="project-card coming-soon">
+                <img src="https://via.placeholder.com/400x250?text=Coming+Soon" alt="Coming Soon" class="project-image">
+                <h3>More Coming Soon!</h3>
+                <p class="project-description">Stay tuned! I'm constantly working on exciting new projects. Check back soon for updates.</p>
+                <div class="project-links">
+                    <!-- No links for coming soon card -->
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="logo.png" alt="GM Logo" class="footer-logo">
+                <p>&copy; <span id="current-year"></span> Ghulam Mustafa. All rights reserved.</p>
+            </div>
+
+            <div class="footer-social">
+                <a href="#" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#home" class="smooth-scroll">Home</a></li>
+                    <li><a href="#about" class="smooth-scroll">About</a></li>
+                    <li><a href="#skills" class="smooth-scroll">Skills</a></li>
+                    <li><a href="certificates.html" target="_blank">Certificates</a></li>
+                    <li><a href="projects.html" target="_blank">Projects</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
